@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## IslandUI
+
+Free React UI Components build with Radix Primitives, CVA and Tailwind CSS.
 
 ## Getting Started
 
@@ -29,8 +31,21 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Commit Convention
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Types of Commits**
+
+Commits should fall into one of the following categories:
+
+- `feat` (or `feature`): Introduces new code or functionality to the project.
+- `fix`: Addresses and resolves a bug. Linking to an issue if available is highly encouraged.
+- `refactor`: Code changes that neither fix a bug nor add a feature, but improve the existing codebase.
+- `docs`: Updates or additions to documentation, such as README files, usage guides, etc.
+- `build`: Changes affecting the build system, including dependency updates and additions.
+- `test`: Modifications involving tests, including adding new tests or refining existing ones.
+- `ci`: Adjustments to our continuous integration setup, like GitHub Actions or other CI tools.
+- `chore`: General maintenance and organizational tasks that don't fit other categories.
+
+For example, a commit message might look like: `feat(components): introduce new Button styles`.

@@ -1,0 +1,8 @@
+{
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "semi": true,
+  "bracketSpacing": true,
+  "tabWidth": 2,
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"]
+}
